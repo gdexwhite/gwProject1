@@ -1,4 +1,4 @@
-# pushes updates toni
+# pushes updates tonig
 - hosts: dev
   become: yes
   become_method: sudo
