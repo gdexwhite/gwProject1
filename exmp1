@@ -1,0 +1,7 @@
+# pushes updates 11/04/22 750pm
+- hosts: dev
+  become: yes
+  become_method: sudo
+  tasks:
+  - name: upgrade all packages
+    yum: name=* state=latest
