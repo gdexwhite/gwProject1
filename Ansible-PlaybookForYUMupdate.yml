@@ -1,5 +1,5 @@
 # pushes updates 11/04/22 523pm
-- hosts: 3.88.64.230:8080
+- hosts: 3.88.64.230
   become: yes
   become_method: sudo
   tasks:
