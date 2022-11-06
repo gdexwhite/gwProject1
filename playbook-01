@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: 3.86.70.192
   tasks:
     - name: Print message
       debug:
