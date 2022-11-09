@@ -1,5 +1,5 @@
 [webservers]
-hosts: 
-54.90.175.208 
+hosts
+54.90.175.208:8080
 
 ansible_user = ec2-user
