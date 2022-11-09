@@ -1,2 +1,5 @@
 [webservers]
-54.90.175.208 ansible_user = ec2-user
+hosts: 
+54.90.175.208 
+
+ansible_user = ec2-user
