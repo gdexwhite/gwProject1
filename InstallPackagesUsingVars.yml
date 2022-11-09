@@ -1,6 +1,6 @@
 #This playbbok will install vim,unzip,zip,wget  Excellent_Yeah
 ---
-- hosts: localhost
+- hosts: webservers
   become: true
   vars:
       packages:
