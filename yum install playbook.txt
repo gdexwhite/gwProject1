@@ -1,0 +1,14 @@
+- hosts: web
+  become: yes
+  become_method: sudo
+  tasks:
+  - name: install all packages
+    yum: name=wget,java,httpd state=latest
+
+
+- name: Install yum packages using a list
+  yum:
+    name: 
+      - git
+      - sshpass
+      - openssl-devel
