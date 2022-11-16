@@ -1,0 +1,15 @@
+#This playbbok will install vim,unzip,zip,wget  Excellent!123
+---
+- hosts: webservers
+  become: true
+  vars:
+  ansible_host_key_checking: false
+      packages:
+        - vim
+        - unzip
+      state: latest
+  tasks:
+    - name: Install vim,unzip
+      yum:
+      name: "{{ packages }}"
+...
